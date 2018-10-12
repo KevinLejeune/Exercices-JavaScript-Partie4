@@ -56,20 +56,26 @@ var InverseString = function (texte) {
 * Exercices sur les nombres et les caluls mathématiques
 */
 var calculPuissance = function (x, y) {
-  return 'A completer';
+  var result = Math.pow(x, y);
+  return result;
 }
 var valeurAbsolue = function (nombre) {
-  return 'A completer';
+  var result = Math.abs(nombre);
+  return result;
 }
 var valeurAbsolueArray = function (array) {
-  return 'A completer';
+  var result = array.map(Math.abs);
+  return result;
 }
 var sufaceCercle = function (rayon) {
-  return 'A completer';
+  var result = Math.round(Math.PI * (rayon * rayon));
+  return result;
 }
 var hypothenuse = function (ab, ac) {
-  return 'A completer';
+  var result = Math.hypot(ab, ac);
+  return result;
 }
 var calculIMC = function (poids, taille) {
-  return 'A completer';
+  var result = Math.round((poids / (taille * taille)) * 100) / 100;
+  return result;
 }
